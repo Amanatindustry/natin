@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Nevsta Technologies</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html#home" class="nav-logo" style="text-decoration: none; color: inherit;">
+                <div class="logo-icon">
+                    <i class="fas fa-gem"></i>
+                </div>
+                <h2>Nevsta Technologies</h2>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#platforms" class="nav-link">Services</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <a href="free-strategy.html" class="nav-link">Free Strategy</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMd9khpYTwxRwkRtVNtUkSINEosK7a-bssG_7NqpMTJ_pkFg/viewform?usp=header" class="nav-link quote-btn-nav" target="_blank" rel="noopener">Get a Quote</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="contact-hero-container">
+            <div class="contact-hero-content">
+                <h1 class="contact-hero-title">Get In Touch</h1>
+                <p class="contact-hero-description">
+                    Ready to transform your digital presence? Let's discuss how Nevsta Technologies 
+                    can help you achieve your marketing goals and drive real results.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-info-header">
+                        <h2>Let's Start a Conversation</h2>
+                        <p>We're here to help you succeed. Reach out to us and let's discuss your project.</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Gmail Us</h3>
+                                <p>nevstatech@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Us</h3>
+                                <p>0346 0851465</p>
+                                <p>Mon-sat: 24/7 Available</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Visit Us</h3>
+                            <p>DHA Phase 1 Islamabad</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Response Time</h3>
+                                <p>We typically respond within</p>
+                                <p>2-4 hours during business hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Get a Quote Section -->
+                <div class="quote-container" data-aos="fade-left">
+                    <div class="quote-header">
+                        <h2>Get Your Free Quote</h2>
+                        <p>Tell us about your project and we'll provide a customized quote within 24 hours.</p>
+                    </div>
+
+                    <div class="quote-options">
+                        <div class="quote-option">
+                            <div class="quote-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <h3>Quick Quote</h3>
+                            <p>Get an instant estimate based on your requirements</p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMd9khpYTwxRwkRtVNtUkSINEosK7a-bssG_7NqpMTJ_pkFg/viewform?usp=header" class="quote-btn" target="_blank" rel="noopener">
+                                <span>Get Quick Quote</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <div class="quote-option">
+                            <div class="quote-icon">
+                                <i class="fas fa-file-contract"></i>
+                            </div>
+                            <h3>Detailed Quote</h3>
+                            <p>Receive a comprehensive proposal with detailed breakdown</p>
+                            <button class="quote-btn" onclick="openDetailedQuote()">
+                                <span>Get Detailed Quote</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+
+                        <div class="quote-option">
+                            <div class="quote-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3>Call for Quote</h3>
+                            <p>Speak directly with our team for immediate pricing</p>
+                            <a href="tel:03460851465" class="call-now-btn">
+                                <span>Call Now</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="quote-benefits">
+                        <h3>Why Choose Our Quote Process?</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Free consultation and analysis</li>
+                            <li><i class="fas fa-check"></i> Customized pricing for your needs</li>
+                            <li><i class="fas fa-check"></i> No hidden fees or surprises</li>
+                            <li><i class="fas fa-check"></i> 24-hour response guarantee</li>
+                            <li><i class="fas fa-check"></i> Flexible payment options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="faq-header" data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers to common questions about our services and process.</p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>What services do you offer?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer comprehensive digital marketing services including social media marketing, 
+                        content strategy, paid advertising, community building, website development, and Google marketing solutions.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>How long does it take to see results?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Results vary depending on your goals and industry. Typically, you'll see initial 
+                        improvements within 2-4 weeks, with significant results appearing within 2-3 months.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>Do you work with small businesses?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We work with businesses of all sizes, from startups to enterprise companies. 
+                        We tailor our services to meet your specific needs and budget.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>What is your pricing structure?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our pricing is customized based on your specific needs and project scope. 
+                        We offer flexible packages and transparent pricing. Contact us for a personalized quote.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq-question">
+                        <h3>Do you provide ongoing support?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we provide ongoing support and maintenance for all our services. 
+                        We're committed to your long-term success and are always available to help.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="faq-question">
+                        <h3>Can you work with my existing team?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Of course! We collaborate seamlessly with in-house teams and can provide 
+                        training, consultation, or full-service management based on your preferences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nevsta Technologies</h3>
+                    <p>Transforming brands through strategic social media marketing.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Gmail: nevstatech@gmail.com</p>
+                    <p>Phone: 0346 0851465</p>
+                    <div class="footer-social-icons" style="margin-top: 0.5rem; display: flex; gap: 1rem;">
+                        <a href="https://www.instagram.com/nevsta.tech?igsh=ZzY1cHpuMDE3bTVl" target="_blank" aria-label="Instagram" style="color: #E1306C; font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nevsta-technologies-100186374" target="_blank" aria-label="LinkedIn" style="color: #0077B5; font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook" style="color: #1877F3; font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.pinterest.com/" target="_blank" aria-label="Pinterest" style="color: #E60023; font-size: 1.5rem;"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nevsta Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="theme.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // FAQ Toggle Functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const answer = faqItem.querySelector('.faq-answer');
+                const icon = question.querySelector('i');
+                
+                // Close other FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    if (item !== faqItem) {
+                        item.classList.remove('active');
+                        item.querySelector('.faq-answer').style.maxHeight = '0px';
+                        item.querySelector('i').classList.remove('fa-chevron-up');
+                        item.querySelector('i').classList.add('fa-chevron-down');
+                    }
+                });
+                
+                // Toggle current FAQ item
+                faqItem.classList.toggle('active');
+                
+                if (faqItem.classList.contains('active')) {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                } else {
+                    answer.style.maxHeight = '0px';
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        });
+
+        // Quote Functions
+        function openQuickQuote() {
+            // In real implementation, this would open a quick quote form or modal
+            alert('Quick Quote: Please call us at 0346 0851465 for immediate pricing or email hello@nevstatechnologies.com with your project details.');
+        }
+        
+        function openDetailedQuote() {
+            // In real implementation, this would open a detailed quote form
+            alert('Detailed Quote: Please email hello@nevstatechnologies.com with your project requirements. We\'ll provide a comprehensive proposal within 24 hours.');
+        }
+        
+        function callForQuote() {
+            // In real implementation, this would initiate a call or show contact info
+            alert('Call for Quote: Please call us at 0346 0851465 to speak with our team for immediate pricing and consultation.');
+        }
+        
+        function scrollToQuote() {
+            const quoteSection = document.querySelector('.quote-container');
+            if (quoteSection) {
+                quoteSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html> 
